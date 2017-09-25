@@ -1,0 +1,38 @@
+header {
+    background-color: lightcoral;
+    color: gold;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+div.flexing {
+    display: flex;
+    flex-direction: row;
+}
+div.column {
+    background-color: lightblue;
+    color: darkgreen;
+    width: 25%;
+    margin: 5px;
+}
+
+
+div.content {
+    background-color: lightpink;
+    color: darkolivegreen;
+    width: auto;
+    padding-left: 5px;
+    margin: 5px;
+}
+
+
+div.foot {
+    background-color: lightcoral;
+    color: gold;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
