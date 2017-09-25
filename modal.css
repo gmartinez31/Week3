@@ -1,0 +1,22 @@
+.modal-dialog {
+    margin: auto;
+    top: 37%;
+    left: 37%;
+    width: 25%;
+    z-index: 1;
+    position: absolute;
+    border: 2px solid silver;
+    border-radius: 8px;
+    text-align: center; 
+    background-color: lightblue;
+}
+div {
+    position: relative;
+    text-align: center;
+}
+
+div.modal-dialog > div.modal-header > h1 {
+    background-color: lightgrey;
+    padding: 10px;
+    margin: 0;
+}
