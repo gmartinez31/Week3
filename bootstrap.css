@@ -1,0 +1,123 @@
+/*NAVIGATION BAR*/
+div.header {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0;
+    margin: 0;
+    width: 100%
+}
+header.top {
+    width:100%;
+    margin-left: 0;
+}
+
+div.company {
+    display: flex;
+    justify-content: flex-start;
+}
+
+div.company > h1 {
+    color: darkred;
+    padding: 50px;
+    margin: 0px;
+    font-size: 3em;
+    text-shadow: 2px 2px silver;
+}
+
+div.navi {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ul.navbar {
+    padding: 0;
+    margin: 0;
+}
+
+ul.navbar > li {
+    list-style-type: none;
+    font-size: 22.5px;
+    padding: 2.25em;
+    margin: 0;
+    border-left: 1px solid black;
+}
+
+ul.navbar > li > a {
+    text-decoration: none;
+    color: darkred;
+}
+
+ul.navbar > li:hover {
+    background-color: silver;
+}
+/*NAVIGATION BAR*/
+
+
+/*LINE*/
+hr {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+/*We Are Awesome Section*/
+.waa > .col > h1{
+    padding: 13%;
+    margin: 0;
+    color: darkred;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 3em;
+    text-shadow: 2px 2px silver;
+}
+
+/*Awesomeness Section*/
+.row > h2.col, .lists > .col > h3{
+    color: darkred;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 2em;
+    text-shadow: 2px 2px silver;
+    padding: 3%;
+}
+
+.lists > .col {
+    padding: 0;
+}
+.lists > .col > h3 {
+    font-size: 1.5em;
+    padding: 2%;
+    text-shadow: none;
+}
+
+.lists > .col > ul {
+    margin: 0;
+    padding: 0 0 4em 0;
+}
+.lists > .col > ul > li {
+    list-style-position: inside;
+}
+
+/*Awesome Persons*/
+.awesome1 > h2, .awesome2 > h2 {
+    padding: 2%;
+    margin: 0;
+    color: darkred;
+}
+
+img {
+    border-radius: 90%;
+    max-width: 80%;
+    height: auto;
+    padding: 1.5%;
+}
+
+footer{
+    color:darkred;
+    background-color: lightgray;
+    font-size: 1.5em;
+    padding: 1%;
+}
+
+.awesome1, .awesome2 {
+    padding-top: 10%;
+    padding-bottom: 20%;
+}
